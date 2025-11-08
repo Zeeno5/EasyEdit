@@ -119,7 +119,9 @@ This diagram visually explains how user input flows from the frontend to the bac
 - The modular structure ensures scalability.  
 - Each service can evolve independently.  
 - Real-time updates make collaboration fast and reliable.  
-- Integrations provide flexibility for different file formats.  
+- Integrations provide flexibility for different file formats. 
+- Decoupled microservices allow independent scaling of AI editing and user management
+- Supports web and mobile apps through a unified API 
 
 
 
@@ -141,5 +143,11 @@ Frontend (React)
            ---> Returns JSON response to Frontend
 
 
+Security Measures
+
+- End-to-end encryption for document transfers (HTTPS/TLS).
+- JWT-based secure authentication and role-based access.
+- Document versioning to prevent accidental overwrites.
+- Encrypted cloud storage for all user data.
 
 
